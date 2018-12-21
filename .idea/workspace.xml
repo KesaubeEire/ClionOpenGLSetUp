@@ -176,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.L_0_7">
+  <component name="RunManager" selected="Application.L_0_1-6">
     <configuration name="L_0_1-6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_0_1-6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_0_1-6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />

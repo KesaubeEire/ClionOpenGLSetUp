@@ -13,4 +13,4 @@ CMake Deprecation Warning at dependencies/GLFW/CMakeLists.txt:10 (cmake_policy):
 -- Using Cocoa for window creation
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/w/CLionProjects/OpenGL_awesome
+-- Build files have been written to: /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
