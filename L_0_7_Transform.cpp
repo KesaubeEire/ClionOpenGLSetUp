@@ -136,7 +136,7 @@ int main()
     //    注册窗口改变回调函数
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-//NewFeature:纹理坐标更新
+//Feature:纹理坐标更新
     // ✅顶点输入
     float vertices[] = {
 //             ---- 位置 ----     ---- 颜色 ----   - 纹理坐标 -
@@ -150,7 +150,7 @@ int main()
             0, 1, 3, // first triangle
             1, 2, 3  // second triangle
     };
-//NewFeature:纹理坐标更新
+//Feature:纹理坐标更新
 
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
@@ -174,13 +174,13 @@ int main()
 // ⭕颜色属性 : 以6个数为一个单位,从每个单位序号为3的数开始,每个单位抽3个
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *) (3 * sizeof(float)));
     glEnableVertexAttribArray(1);
-// NewFeature:纹理属性顶点
+// Feature:纹理属性顶点
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *) (6 * sizeof(float)));
     glEnableVertexAttribArray(2);
-// NewFeature:纹理属性顶点
 
 
-// NewFeature:纹理声明
+
+// Feature:纹理声明
 
     // load and create a texture
     // -------------------------
@@ -242,25 +242,15 @@ int main()
     }
     stbi_image_free(data);
 
-// NewFeature:纹理声明
-
     // 创造Shader
-    Shader shaderProgram("shaders/vs001.glsl",
-                         "shaders/fs001.glsl");
+    Shader shaderProgram("shaders/vs002.glsl",
+                         "shaders/fs002.glsl");
 
 
     // 取消注释可以画线框图 : 应该是强制改变渲染模式为线框
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
-    // ✅渲染循环
-    //    glfwWindowShouldClose
-    //    函数在我们每次循环的开始前检查一次GLFW是否被要求退出，
-    //    如果是的话该函数返回true然后渲染循环便结束了，
-    //    之后为我们就可以关闭应用程序了
-    float offset_X = 0;
-    float offset_Y = 0;
-    float offset_Zoom = 0;
-    float offset_Alpha = 0;
+
 
     // tell opengl for each sampler to which texture unit it belongs to (only has to be done once)
     // -------------------------------------------------------------------------------------------
@@ -269,6 +259,22 @@ int main()
     glUniform1i(glGetUniformLocation(shaderProgram.ID, "texture1"), 0);
     glUniform1i(glGetUniformLocation(shaderProgram.ID, "texture2"), 1);
 
+
+    // ✅运动变量
+    float offset_X = 0;
+    float offset_Y = 0;
+    float offset_Zoom = 0;
+    float offset_Alpha = 0;
+
+    // NewFeature:矩阵
+    glm::mat4 trans;
+    // z轴旋转90度
+    trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
+    // 全体放大0.5倍
+    trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+    // NewFeature:矩阵
+
+    // ✅渲染循环
     while (!glfwWindowShouldClose(window))
     {
 

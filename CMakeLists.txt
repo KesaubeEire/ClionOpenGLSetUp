@@ -31,5 +31,3 @@ target_link_libraries(L_0_1-6 glfw)
 
 add_executable(L_0_7 L_0_7_Transform.cpp ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(L_0_7 glfw)
-
-
