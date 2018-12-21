@@ -3,8 +3,8 @@ project(OpenGLSetup)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp GLAD/src/glad.c)
-set(HEADER_FILES shader.h)
+set(SOURCE_FILES dependencies/shader.h GLAD/src/glad.c)
+set(HEADER_FILES)
 
 set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${dir}/build)
@@ -22,5 +22,14 @@ file(COPY shaders DESTINATION ${dir}/build)
 #Add deps
 add_subdirectory(dependencies)
 
-add_executable(OpenGLSetup ${SOURCE_FILES} ${HEADER_FILES})
-target_link_libraries(OpenGLSetup glfw)
+#Add Exe
+add_executable(L_0_6 L_0_6_BeforeTransform.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_0_6 glfw)
+
+add_executable(L_0_1-6 L_0_1-6_BeforeTransform.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_0_1-6 glfw)
+
+add_executable(L_0_7 L_0_7_Transform.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_0_7 glfw)
+
+

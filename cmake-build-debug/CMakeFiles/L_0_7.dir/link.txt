@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/L_0_7.dir/L_0_7_Transform.cpp.o CMakeFiles/L_0_7.dir/GLAD/src/glad.c.o  -o ../build/L_0_7 dependencies/GLFW/src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo 

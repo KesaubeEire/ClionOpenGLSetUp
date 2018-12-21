@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/OpenGLSetup.dir/L_0_6_BeforeTransform.cpp.o CMakeFiles/OpenGLSetup.dir/GLAD/src/glad.c.o  -o ../build/OpenGLSetup dependencies/GLFW/src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo 
