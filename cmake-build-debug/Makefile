@@ -157,17 +157,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named L_0_1-6
+# Target rules for targets named L_0_8
 
 # Build rule for target.
-L_0_1-6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 L_0_1-6
-.PHONY : L_0_1-6
+L_0_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_0_8
+.PHONY : L_0_8
 
 # fast build rule for target.
-L_0_1-6/fast:
-	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/build
-.PHONY : L_0_1-6/fast
+L_0_8/fast:
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/build
+.PHONY : L_0_8/fast
+
+#=============================================================================
+# Target rules for targets named L_0_6
+
+# Build rule for target.
+L_0_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_0_6
+.PHONY : L_0_6
+
+# fast build rule for target.
+L_0_6/fast:
+	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/build
+.PHONY : L_0_6/fast
 
 #=============================================================================
 # Target rules for targets named L_0_7
@@ -183,17 +196,30 @@ L_0_7/fast:
 .PHONY : L_0_7/fast
 
 #=============================================================================
-# Target rules for targets named L_0_6
+# Target rules for targets named L_0_1-6
 
 # Build rule for target.
-L_0_6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 L_0_6
-.PHONY : L_0_6
+L_0_1-6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_0_1-6
+.PHONY : L_0_1-6
 
 # fast build rule for target.
-L_0_6/fast:
-	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/build
-.PHONY : L_0_6/fast
+L_0_1-6/fast:
+	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/build
+.PHONY : L_0_1-6/fast
+
+#=============================================================================
+# Target rules for targets named L_0_9
+
+# Build rule for target.
+L_0_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_0_9
+.PHONY : L_0_9
+
+# fast build rule for target.
+L_0_9/fast:
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/build
+.PHONY : L_0_9/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -227,9 +253,11 @@ GLAD/src/glad.o: GLAD/src/glad.c.o
 
 # target to build an object file
 GLAD/src/glad.c.o:
-	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.o
-	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.o
 .PHONY : GLAD/src/glad.c.o
 
 GLAD/src/glad.i: GLAD/src/glad.c.i
@@ -238,9 +266,11 @@ GLAD/src/glad.i: GLAD/src/glad.c.i
 
 # target to preprocess a source file
 GLAD/src/glad.c.i:
-	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.i
-	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.i
 .PHONY : GLAD/src/glad.c.i
 
 GLAD/src/glad.s: GLAD/src/glad.c.s
@@ -249,9 +279,11 @@ GLAD/src/glad.s: GLAD/src/glad.c.s
 
 # target to generate assembly for a file
 GLAD/src/glad.c.s:
-	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.s
-	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.s
 .PHONY : GLAD/src/glad.c.s
 
 L_0_1-6_BeforeTransform.o: L_0_1-6_BeforeTransform.cpp.o
@@ -335,6 +367,60 @@ L_0_7_Transform.cpp.s:
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/L_0_7_Transform.cpp.s
 .PHONY : L_0_7_Transform.cpp.s
 
+L_0_8_Axis.o: L_0_8_Axis.cpp.o
+
+.PHONY : L_0_8_Axis.o
+
+# target to build an object file
+L_0_8_Axis.cpp.o:
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/L_0_8_Axis.cpp.o
+.PHONY : L_0_8_Axis.cpp.o
+
+L_0_8_Axis.i: L_0_8_Axis.cpp.i
+
+.PHONY : L_0_8_Axis.i
+
+# target to preprocess a source file
+L_0_8_Axis.cpp.i:
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/L_0_8_Axis.cpp.i
+.PHONY : L_0_8_Axis.cpp.i
+
+L_0_8_Axis.s: L_0_8_Axis.cpp.s
+
+.PHONY : L_0_8_Axis.s
+
+# target to generate assembly for a file
+L_0_8_Axis.cpp.s:
+	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/L_0_8_Axis.cpp.s
+.PHONY : L_0_8_Axis.cpp.s
+
+L_0_9_Camera.o: L_0_9_Camera.cpp.o
+
+.PHONY : L_0_9_Camera.o
+
+# target to build an object file
+L_0_9_Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.o
+.PHONY : L_0_9_Camera.cpp.o
+
+L_0_9_Camera.i: L_0_9_Camera.cpp.i
+
+.PHONY : L_0_9_Camera.i
+
+# target to preprocess a source file
+L_0_9_Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.i
+.PHONY : L_0_9_Camera.cpp.i
+
+L_0_9_Camera.s: L_0_9_Camera.cpp.s
+
+.PHONY : L_0_9_Camera.s
+
+# target to generate assembly for a file
+L_0_9_Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.s
+.PHONY : L_0_9_Camera.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -346,10 +432,12 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... L_0_1-6"
-	@echo "... edit_cache"
-	@echo "... L_0_7"
+	@echo "... L_0_8"
 	@echo "... L_0_6"
+	@echo "... L_0_7"
+	@echo "... edit_cache"
+	@echo "... L_0_1-6"
+	@echo "... L_0_9"
 	@echo "... uninstall"
 	@echo "... glfw"
 	@echo "... GLAD/src/glad.o"
@@ -364,6 +452,12 @@ help:
 	@echo "... L_0_7_Transform.o"
 	@echo "... L_0_7_Transform.i"
 	@echo "... L_0_7_Transform.s"
+	@echo "... L_0_8_Axis.o"
+	@echo "... L_0_8_Axis.i"
+	@echo "... L_0_8_Axis.s"
+	@echo "... L_0_9_Camera.o"
+	@echo "... L_0_9_Camera.i"
+	@echo "... L_0_9_Camera.s"
 .PHONY : help
 
 

@@ -11,16 +11,17 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${dir}/build)
 
 include_directories(include)
 
+
 #Include library files
 include_directories(GLAD/include)
 include_directories(glm/include)
-
 file(COPY resources DESTINATION ${dir}/build)
 file(COPY shaders DESTINATION ${dir}/build)
 
 
 #Add deps
 add_subdirectory(dependencies)
+
 
 #Add Exe
 add_executable(L_0_6 L_0_6_BeforeTransform.cpp ${SOURCE_FILES} ${HEADER_FILES})
@@ -31,3 +32,9 @@ target_link_libraries(L_0_1-6 glfw)
 
 add_executable(L_0_7 L_0_7_Transform.cpp ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(L_0_7 glfw)
+
+add_executable(L_0_8 L_0_8_Axis.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_0_8 glfw)
+
+add_executable(L_0_9 L_0_9_Camera.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_0_9 glfw)

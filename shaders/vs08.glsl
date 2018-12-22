@@ -12,17 +12,20 @@ uniform float yOffset;
 
 // 矩阵 from cpp
 uniform mat4 transform;
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+
 
 void main()
 {
-    // 移动
-//    gl_Position = vec4(aPos.x+xOffset,aPos.y+yOffset,aPos.z, 1.0);
-     gl_Position = transform * vec4(aPos, 1.0f);
+    // 位置
+    // 注意乘法要从右向左读
+    gl_Position = projection * view * model * transform * vec4(aPos, 1.0);
 
     // 着色
     vertexColor = vec4(vec_Col, 1.0);
 
     // 输出EBO
-//    TexCoord = aTexCoord;
   TexCoord = vec2(aTexCoord.x, 1.0 - aTexCoord.y);
 }
