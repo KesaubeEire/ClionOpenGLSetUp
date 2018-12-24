@@ -3,8 +3,8 @@ project(OpenGLSetup)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES dependencies/shader.h GLAD/src/glad.c)
-set(HEADER_FILES)
+set(SOURCE_FILES GLAD/src/glad.c)
+set(HEADER_FILES dependencies/Camera.h dependencies/shader.h)
 
 set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${dir}/build)

@@ -431,6 +431,13 @@
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/Camera.h">
+			<Option target="L_0_8"/>
+			<Option target="L_0_6"/>
+			<Option target="L_0_7"/>
+			<Option target="L_0_1-6"/>
+			<Option target="L_0_9"/>
+		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
