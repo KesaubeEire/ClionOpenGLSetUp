@@ -2,13 +2,17 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="OpenGLSetup" targetName="L_1_0" />
+      <config projectName="OpenGLSetup" targetName="L_1_1" />
       <config projectName="OpenGLSetup" targetName="L_0_1-6" />
       <config projectName="OpenGLSetup" targetName="L_0_7" />
       <config projectName="OpenGLSetup" targetName="L_0_6" />
+      <config projectName="OpenGLSetup" targetName="L_1_3_LightingMaps" />
       <config projectName="OpenGLSetup" targetName="uninstall" />
       <config projectName="OpenGLSetup" targetName="L_0_9" />
       <config projectName="OpenGLSetup" targetName="L_0_8" />
       <config projectName="OpenGLSetup" targetName="glfw" />
+      <config projectName="OpenGLSetup" targetName="L_1_2_Materials" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -18,13 +22,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a555780d-d44c-4c2e-91bb-759035baca43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L_0_9_Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/L_0_9_Camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/L_0_9" beforeDir="false" afterPath="$PROJECT_DIR$/build/L_0_9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGLSetup.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGLSetup.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dependencies/GLFW/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dependencies/GLFW/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/Camera.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -43,74 +54,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="378">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L_0_9_Camera.cpp">
+        <entry file="file://$PROJECT_DIR$/L_1_2_Materials.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="985" column="41" selection-start-line="985" selection-start-column="41" selection-end-line="985" selection-end-column="41" />
+            <state relative-caret-position="9048">
+              <caret line="377" column="1" selection-start-line="377" selection-start-column="1" selection-end-line="377" selection-end-column="1" />
               <folding>
-                <element signature="e#133#168#0" expanded="true" />
-                <element signature="e#191#208#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#115#150#0" expanded="true" />
+                <element signature="e#206#223#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shaders/fs09.glsl">
+        <entry file="file://$PROJECT_DIR$/L_1_3_LightingMaps.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_2.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="24">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/shaders/frag.glsl">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/shaders/lamp_fs_1_2.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/shaders/fs000.glsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/shaders/fs002.glsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/shaders/fs08.glsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/shaders/fs09.glsl">
+        <entry file="file://$PROJECT_DIR$/shaders/vs_1_2.glsl">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dependencies/Camera.h">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shaders/fs_1_2.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
-              <folding>
-                <element signature="e#101#123#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -129,9 +132,12 @@
       <find>data</find>
       <find>project</find>
       <find>view</find>
+      <find>lookat</find>
+      <find>_1_0</find>
     </findStrings>
     <replaceStrings>
       <replace>aPos</replace>
+      <replace>_1_1</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,18 +165,36 @@
         <option value="$PROJECT_DIR$/L_0_1-6_BeforeTransform.cpp" />
         <option value="$PROJECT_DIR$/shaders/vs09.glsl" />
         <option value="$PROJECT_DIR$/shaders/fs09.glsl" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dependencies/shader.h" />
         <option value="$PROJECT_DIR$/L_0_9_Camera.cpp" />
+        <option value="$PROJECT_DIR$/shaders/vs_1_0.glsl" />
+        <option value="$PROJECT_DIR$/shaders/fs_1_0.glsl" />
+        <option value="$PROJECT_DIR$/shaders/lamp_vs_1_0.glsl" />
+        <option value="$PROJECT_DIR$/shaders/lamp_fs_1_0.glsl" />
+        <option value="$USER_HOME$/.gitignore_global" />
         <option value="$PROJECT_DIR$/dependencies/Camera.h" />
+        <option value="$PROJECT_DIR$/L_1_0_ColorInit.cpp" />
+        <option value="$PROJECT_DIR$/shaders/lamp_vs_1_1.glsl" />
+        <option value="$PROJECT_DIR$/shaders/lamp_fs_1_1.glsl" />
+        <option value="$PROJECT_DIR$/L_1_1_BaseLighting.cpp" />
+        <option value="$PROJECT_DIR$/shaders/vs_1_1.glsl" />
+        <option value="$PROJECT_DIR$/shaders/fs_1_1.glsl" />
+        <option value="$PROJECT_DIR$/shaders/vs_1_2.glsl" />
+        <option value="$PROJECT_DIR$/shaders/lamp_vs_1_2.glsl" />
+        <option value="$PROJECT_DIR$/shaders/fs_1_2.glsl" />
+        <option value="$PROJECT_DIR$/shaders/lamp_fs_1_2.glsl" />
+        <option value="$PROJECT_DIR$/L_1_2_Materials.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/L_1_3_LightingMaps.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1080" />
+    <option name="x" value="-1058" />
     <option name="y" value="-1486" />
-    <option name="width" value="1080" />
-    <option name="height" value="1893" />
+    <option name="width" value="608" />
+    <option name="height" value="1892" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -180,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,36 +214,28 @@
             <path>
               <item name="OpenGLSetup" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenGL_awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenGLSetup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenGL_awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenGLSetup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenGL_awesome" type="462c0819:PsiDirectoryNode" />
               <item name="dependencies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenGLSetup" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenGL_awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -239,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.L_0_9">
+  <component name="RunManager" selected="Application.L_1_2_Materials">
     <configuration name="L_0_1-6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_0_1-6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_0_1-6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -265,12 +280,36 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L_1_0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_1_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_1_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L_1_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_1_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_1_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L_1_2_Materials" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_1_2_Materials" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_1_2_Materials">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L_1_3_LightingMaps" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_1_3_LightingMaps" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_1_3_LightingMaps">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.L_0_1-6" />
       <item itemvalue="Application.L_0_6" />
       <item itemvalue="Application.L_0_7" />
       <item itemvalue="Application.L_0_8" />
       <item itemvalue="Application.L_0_9" />
+      <item itemvalue="Application.L_1_0" />
+      <item itemvalue="Application.L_1_1" />
+      <item itemvalue="Application.L_1_2_Materials" />
+      <item itemvalue="Application.L_1_3_LightingMaps" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -285,12 +324,13 @@
       <updated>1545390903082</updated>
       <workItem from="1545390904472" duration="159000" />
       <workItem from="1545391103148" duration="38343000" />
-      <workItem from="1545632832097" duration="6376000" />
+      <workItem from="1545632832097" duration="11232000" />
+      <workItem from="1545707128574" duration="18351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44878000" />
+    <option name="totallyTimeSpent" value="68085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,22 +342,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-1486" width="1080" height="1893" extended-state="6" />
+    <frame x="-1080" y="-1486" width="1080" height="1892" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="1" sideWeight="0.36613056" visible="true" weight="0.2323513" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4947966" weight="0.32962757" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Project" order="1" sideWeight="0.3642384" visible="true" weight="0.2625139" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49385053" weight="0.32962757" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49952698" weight="0.27682045" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6319773" side_tool="true" weight="0.30183434" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.63386947" side_tool="true" weight="0.23183583" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.63292336" side_tool="true" weight="0.30183434" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6357616" side_tool="true" weight="0.2625139" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6357616" side_tool="true" weight="0.2625139" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6348155" side_tool="true" weight="0.2625139" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.6357616" side_tool="true" visible="true" weight="0.2625139" />
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.63386947" side_tool="true" visible="true" weight="0.2323513" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.6357616" side_tool="true" weight="0.2625139" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
       <window_info anchor="bottom" id="Structure" order="14" weight="0.2495831" />
       <window_info anchor="bottom" id="Favorites" order="15" weight="0.24402446" />
@@ -331,68 +371,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dependencies/GLFW/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/GLFW/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/resources/container.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/resources/awesomeface.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/vs000.glsl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/vs001.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeFiles/clion-environment.txt" />
-    <entry file="file://$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/GLFW/cmake_uninstall.cmake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/fs001.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake_install.cmake" />
-    <entry file="file://$PROJECT_DIR$/CMakeCache.txt" />
-    <entry file="file://$PROJECT_DIR$/Makefile" />
-    <entry file="file://$PROJECT_DIR$/OpenGLSetup.cbp" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shaders/vs0021.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -421,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/vs001.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shaders/vs08.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -439,76 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="247" column="44" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L_0_6_BeforeTransform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L_0_7_Transform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#18#40#0" expanded="true" />
-            <element signature="e#191#208#0" expanded="true" />
-            <element signature="e#397#409#0" expanded="true" />
-            <element signature="e#498#513#0" expanded="true" />
-            <element signature="e#10504#10510#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L_0_8_Axis.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5616">
-          <caret line="234" column="32" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="32" />
-          <folding>
-            <element signature="e#18#40#0" expanded="true" />
-            <element signature="e#191#208#0" expanded="true" />
-            <element signature="e#397#409#0" expanded="true" />
-            <element signature="e#498#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L_0_1-6_BeforeTransform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40128">
-          <caret line="1672" column="12" selection-start-line="1672" selection-start-column="12" selection-end-line="1672" selection-end-column="12" />
-          <folding>
-            <element signature="e#1#18#0" expanded="true" />
-            <element signature="e#239#259#0" expanded="true" />
-            <element signature="e#2527#2541#0" expanded="true" />
-            <element signature="e#3149#3166#0" expanded="true" />
-            <element signature="e#8928#8942#0" expanded="true" />
-            <element signature="e#8978#8995#0" expanded="true" />
-            <element signature="e#9441#9468#0" expanded="true" />
-            <element signature="e#11864#11904#0" expanded="true" />
-            <element signature="e#12431#12471#0" expanded="true" />
-            <element signature="e#13184#13217#0" expanded="true" />
-            <element signature="e#18091#18115#0" expanded="true" />
-            <element signature="e#28273#28303#0" expanded="true" />
-            <element signature="e#28574#28588#0" expanded="true" />
-            <element signature="e#28689#28706#0" expanded="true" />
-            <element signature="e#33989#34003#0" expanded="true" />
-            <element signature="e#34030#34047#0" expanded="true" />
-            <element signature="e#34975#34993#0" expanded="true" />
-            <element signature="e#35012#35034#0" expanded="true" />
-            <element signature="e#35185#35202#0" expanded="true" />
-            <element signature="e#35437#35449#0" expanded="true" />
-            <element signature="e#35538#35553#0" expanded="true" />
-            <element signature="e#44470#44482#0" expanded="true" />
-            <element signature="e#44499#44514#0" expanded="true" />
-            <element signature="e#44546#44572#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,36 +440,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/fs000.glsl">
+    <entry file="file://$PROJECT_DIR$/build/shaders/vs09.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/fs002.glsl">
+    <entry file="file://$PROJECT_DIR$/build/shaders/FragmentShader001.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/shaders/VertexShader001.vs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/shaders/fs08.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/vs0021.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/vs09.glsl">
+    <entry file="file://$PROJECT_DIR$/build/shaders/fs000.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/shaders/frag.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/FragmentShader001.fs">
+    <entry file="file://$PROJECT_DIR$/build/shaders/fs002.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shaders/fs09.glsl">
@@ -578,8 +468,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/VertexShader001.vs">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/build/shaders/fs09.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/shaders/vs0021.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_0_7_Transform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#18#40#0" expanded="true" />
+            <element signature="e#191#208#0" expanded="true" />
+            <element signature="e#397#409#0" expanded="true" />
+            <element signature="e#498#513#0" expanded="true" />
+            <element signature="e#10504#10510#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shaders/fs000.glsl">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,31 +503,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L_0_9_Camera.cpp">
+    <entry file="file://$PROJECT_DIR$/shaders/vs_1_0.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="985" column="41" selection-start-line="985" selection-start-column="41" selection-end-line="985" selection-end-column="41" />
-          <folding>
-            <element signature="e#133#168#0" expanded="true" />
-            <element signature="e#191#208#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/shaders/fs09.glsl">
+    <entry file="file://$PROJECT_DIR$/shaders/fs_1_0.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_0.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_fs_1_0.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vs001.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/233.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gitignore_global">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wave.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/GLFW/src/input.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="350" column="25" selection-start-line="350" selection-start-column="15" selection-end-line="350" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_fs_1_1.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_0_9_Camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="1073" column="8" selection-start-line="1073" selection-start-column="8" selection-end-line="1073" selection-end-column="68" />
+          <folding>
+            <element signature="e#18#40#0" expanded="true" />
+            <element signature="e#133#168#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dependencies/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="1718">
+          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding>
-            <element signature="e#101#123#0" expanded="true" />
+            <element signature="e#311#382#1" />
+            <element signature="e#413#466#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_1_0_ColorInit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="50" selection-start-line="50" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+            <element signature="e#157#192#0" expanded="true" />
+            <element signature="e#248#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_0_8_Axis.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="234" column="32" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="32" />
+          <folding>
+            <element signature="e#18#40#0" expanded="true" />
+            <element signature="e#191#208#0" expanded="true" />
+            <element signature="e#397#409#0" expanded="true" />
+            <element signature="e#498#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_0_6_BeforeTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_1_1_BaseLighting.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+            <element signature="e#157#192#0" expanded="true" />
+            <element signature="e#248#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vs_1_1.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/fs_1_1.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_0_1-6_BeforeTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="1635" column="33" selection-start-line="1635" selection-start-column="33" selection-end-line="1635" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#18#0" expanded="true" />
+            <element signature="e#239#259#0" expanded="true" />
+            <element signature="e#2527#2541#0" expanded="true" />
+            <element signature="e#3149#3166#0" expanded="true" />
+            <element signature="e#8928#8942#0" expanded="true" />
+            <element signature="e#8978#8995#0" expanded="true" />
+            <element signature="e#9441#9468#0" expanded="true" />
+            <element signature="e#11864#11904#0" expanded="true" />
+            <element signature="e#12431#12471#0" expanded="true" />
+            <element signature="e#13184#13217#0" expanded="true" />
+            <element signature="e#18091#18115#0" expanded="true" />
+            <element signature="e#28273#28303#0" expanded="true" />
+            <element signature="e#28574#28588#0" expanded="true" />
+            <element signature="e#28689#28706#0" expanded="true" />
+            <element signature="e#33989#34003#0" expanded="true" />
+            <element signature="e#34030#34047#0" expanded="true" />
+            <element signature="e#34975#34993#0" expanded="true" />
+            <element signature="e#35012#35034#0" expanded="true" />
+            <element signature="e#35185#35202#0" expanded="true" />
+            <element signature="e#35437#35449#0" expanded="true" />
+            <element signature="e#35538#35553#0" expanded="true" />
+            <element signature="e#44470#44482#0" expanded="true" />
+            <element signature="e#44499#44514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_1.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_2.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_fs_1_2.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vs_1_2.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/fs_1_2.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_1_2_Materials.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9048">
+          <caret line="377" column="1" selection-start-line="377" selection-start-column="1" selection-end-line="377" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#115#150#0" expanded="true" />
+            <element signature="e#206#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L_1_3_LightingMaps.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

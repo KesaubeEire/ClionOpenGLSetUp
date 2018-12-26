@@ -858,7 +858,6 @@
 //}
 ////endregion
 
-
 //region 教程最终 -> 使用Camera类进行操作
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
@@ -875,13 +874,14 @@ const unsigned int SCR_HEIGHT = 600;
 
 // camera
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
-float lastX = SCR_WIDTH / 2.0f;
-float lastY = SCR_HEIGHT / 2.0f;
+double lastX = SCR_WIDTH / 2.0f;
+double lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 
 // timing
 float deltaTime = 0.0f;    // time between current frame and last frame
-float lastFrame = 0.0f;
+float currentFrame;
+float lastFrame;
 
 int main()
 {
@@ -1068,10 +1068,10 @@ int main()
     {
         // per-frame time logic
         // --------------------
-        float currentFrame = glfwGetTime();
-        deltaTime = currentFrame - lastFrame;
+        currentFrame = (float) glfwGetTime(); // 获取游戏运行时间
+        deltaTime = currentFrame - lastFrame; // 每帧计算运行时间差 算得每帧时间
         lastFrame = currentFrame;
-        std::cout << 1 / deltaTime << std::endl;
+        std::cout << "FPS:\t" << (int) (1 / deltaTime) << std::endl;
 
         // input
         // -----
@@ -1139,13 +1139,13 @@ void processInput(GLFWwindow *window)
         glfwSetWindowShouldClose(window, true);
 
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        camera.ProcessKeyboard(FORWARD, deltaTime);
+        camera.ProcessKeyboard_Move(FORWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        camera.ProcessKeyboard(BACKWARD, deltaTime);
+        camera.ProcessKeyboard_Move(BACKWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        camera.ProcessKeyboard(LEFT, deltaTime);
+        camera.ProcessKeyboard_Move(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        camera.ProcessKeyboard(RIGHT, deltaTime);
+        camera.ProcessKeyboard_Move(RIGHT, deltaTime);
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes

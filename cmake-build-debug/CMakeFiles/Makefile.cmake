@@ -70,7 +70,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/L_1_3_LightingMaps.dir/DependInfo.cmake"
   "CMakeFiles/L_0_8.dir/DependInfo.cmake"
+  "CMakeFiles/L_1_1.dir/DependInfo.cmake"
+  "CMakeFiles/L_1_0.dir/DependInfo.cmake"
+  "CMakeFiles/L_1_2_Materials.dir/DependInfo.cmake"
   "CMakeFiles/L_0_6.dir/DependInfo.cmake"
   "CMakeFiles/L_0_7.dir/DependInfo.cmake"
   "CMakeFiles/L_0_1-6.dir/DependInfo.cmake"

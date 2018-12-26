@@ -38,3 +38,15 @@ target_link_libraries(L_0_8 glfw)
 
 add_executable(L_0_9 L_0_9_Camera.cpp ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(L_0_9 glfw)
+
+add_executable(L_1_0 L_1_0_ColorInit.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_1_0 glfw)
+
+add_executable(L_1_1 L_1_1_BaseLighting.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_1_1 glfw)
+
+add_executable(L_1_2_Materials L_1_2_Materials.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_1_2_Materials glfw)
+
+add_executable(L_1_3_LightingMaps L_1_3_LightingMaps.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_1_3_LightingMaps glfw)

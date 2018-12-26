@@ -18,6 +18,8 @@ enum Camera_Movement
     RIGHT
 };
 
+// 移动视角枚举
+// 只能在地面模式 | 飞天模式
 enum Camera_View
 {
     FPS_ONLY_GROUND,
@@ -41,7 +43,6 @@ const float ZOOM = 45.0f;
 class Camera
 {
 public:
-
     // Camera Attributes
     // 简单属性 位置|local前 local上 local右|世界上
     glm::vec3 Position;
@@ -96,8 +97,8 @@ public:
     // Processes input received from any keyboard-like input system.
     // Accepts input parameter in the form of camera defined ENUM
     // (to abstract it from windowing systems)
-    // 键盘操作
-    void ProcessKeyboard(Camera_Movement direction, float deltaTime, Camera_View camera_view = FPS_ONLY_GROUND)
+    // 键盘操作 : 方向移动
+    void ProcessKeyboard_Move(Camera_Movement direction, float deltaTime, Camera_View camera_view = FPS_ONLY_GROUND)
     {
         float velocity = MovementSpeed * deltaTime;
         if (camera_view == FPS_ONLY_GROUND)

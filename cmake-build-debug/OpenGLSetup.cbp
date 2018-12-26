@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
-				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
 				<Option type="4"/>
@@ -57,11 +47,53 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="L_1_3_LightingMaps">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_3_LightingMaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_3_LightingMaps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_3_LightingMaps/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_3_LightingMaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_3_LightingMaps/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -114,6 +146,172 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_0_8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_1">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_1/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_0">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_0/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_0/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_2_Materials">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_2_Materials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_2_Materials"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_2_Materials/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_2_Materials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_2_Materials/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -285,6 +483,16 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="L_0_9">
 				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_0_9" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
@@ -407,7 +615,11 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/GLAD/src/glad.c">
+			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
+			<Option target="L_1_1"/>
+			<Option target="L_1_0"/>
+			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
 			<Option target="L_0_1-6"/>
@@ -428,11 +640,27 @@
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_0_9_Camera.cpp">
 			<Option target="L_0_9"/>
 		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_0_ColorInit.cpp">
+			<Option target="L_1_0"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_1_BaseLighting.cpp">
+			<Option target="L_1_1"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_2_Materials.cpp">
+			<Option target="L_1_2_Materials"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_3_LightingMaps.cpp">
+			<Option target="L_1_3_LightingMaps"/>
+		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/Camera.h">
+			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
+			<Option target="L_1_1"/>
+			<Option target="L_1_0"/>
+			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
 			<Option target="L_0_1-6"/>
@@ -511,7 +739,11 @@
 			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/shader.h">
+			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
+			<Option target="L_1_1"/>
+			<Option target="L_1_0"/>
+			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
 			<Option target="L_0_1-6"/>

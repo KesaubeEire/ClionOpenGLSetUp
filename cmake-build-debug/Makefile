@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -124,6 +112,18 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles/progress.marks
@@ -157,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named L_1_3_LightingMaps
+
+# Build rule for target.
+L_1_3_LightingMaps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_3_LightingMaps
+.PHONY : L_1_3_LightingMaps
+
+# fast build rule for target.
+L_1_3_LightingMaps/fast:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/build
+.PHONY : L_1_3_LightingMaps/fast
+
+#=============================================================================
 # Target rules for targets named L_0_8
 
 # Build rule for target.
@@ -168,6 +181,45 @@ L_0_8: cmake_check_build_system
 L_0_8/fast:
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/build
 .PHONY : L_0_8/fast
+
+#=============================================================================
+# Target rules for targets named L_1_1
+
+# Build rule for target.
+L_1_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_1
+.PHONY : L_1_1
+
+# fast build rule for target.
+L_1_1/fast:
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/build
+.PHONY : L_1_1/fast
+
+#=============================================================================
+# Target rules for targets named L_1_0
+
+# Build rule for target.
+L_1_0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_0
+.PHONY : L_1_0
+
+# fast build rule for target.
+L_1_0/fast:
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/build
+.PHONY : L_1_0/fast
+
+#=============================================================================
+# Target rules for targets named L_1_2_Materials
+
+# Build rule for target.
+L_1_2_Materials: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_2_Materials
+.PHONY : L_1_2_Materials
+
+# fast build rule for target.
+L_1_2_Materials/fast:
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/build
+.PHONY : L_1_2_Materials/fast
 
 #=============================================================================
 # Target rules for targets named L_0_6
@@ -253,7 +305,11 @@ GLAD/src/glad.o: GLAD/src/glad.c.o
 
 # target to build an object file
 GLAD/src/glad.c.o:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.o
@@ -266,7 +322,11 @@ GLAD/src/glad.i: GLAD/src/glad.c.i
 
 # target to preprocess a source file
 GLAD/src/glad.c.i:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.i
@@ -279,7 +339,11 @@ GLAD/src/glad.s: GLAD/src/glad.c.s
 
 # target to generate assembly for a file
 GLAD/src/glad.c.s:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.s
@@ -421,22 +485,134 @@ L_0_9_Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/L_0_9_Camera.cpp.s
 .PHONY : L_0_9_Camera.cpp.s
 
+L_1_0_ColorInit.o: L_1_0_ColorInit.cpp.o
+
+.PHONY : L_1_0_ColorInit.o
+
+# target to build an object file
+L_1_0_ColorInit.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/L_1_0_ColorInit.cpp.o
+.PHONY : L_1_0_ColorInit.cpp.o
+
+L_1_0_ColorInit.i: L_1_0_ColorInit.cpp.i
+
+.PHONY : L_1_0_ColorInit.i
+
+# target to preprocess a source file
+L_1_0_ColorInit.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/L_1_0_ColorInit.cpp.i
+.PHONY : L_1_0_ColorInit.cpp.i
+
+L_1_0_ColorInit.s: L_1_0_ColorInit.cpp.s
+
+.PHONY : L_1_0_ColorInit.s
+
+# target to generate assembly for a file
+L_1_0_ColorInit.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/L_1_0_ColorInit.cpp.s
+.PHONY : L_1_0_ColorInit.cpp.s
+
+L_1_1_BaseLighting.o: L_1_1_BaseLighting.cpp.o
+
+.PHONY : L_1_1_BaseLighting.o
+
+# target to build an object file
+L_1_1_BaseLighting.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/L_1_1_BaseLighting.cpp.o
+.PHONY : L_1_1_BaseLighting.cpp.o
+
+L_1_1_BaseLighting.i: L_1_1_BaseLighting.cpp.i
+
+.PHONY : L_1_1_BaseLighting.i
+
+# target to preprocess a source file
+L_1_1_BaseLighting.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/L_1_1_BaseLighting.cpp.i
+.PHONY : L_1_1_BaseLighting.cpp.i
+
+L_1_1_BaseLighting.s: L_1_1_BaseLighting.cpp.s
+
+.PHONY : L_1_1_BaseLighting.s
+
+# target to generate assembly for a file
+L_1_1_BaseLighting.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/L_1_1_BaseLighting.cpp.s
+.PHONY : L_1_1_BaseLighting.cpp.s
+
+L_1_2_Materials.o: L_1_2_Materials.cpp.o
+
+.PHONY : L_1_2_Materials.o
+
+# target to build an object file
+L_1_2_Materials.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/L_1_2_Materials.cpp.o
+.PHONY : L_1_2_Materials.cpp.o
+
+L_1_2_Materials.i: L_1_2_Materials.cpp.i
+
+.PHONY : L_1_2_Materials.i
+
+# target to preprocess a source file
+L_1_2_Materials.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/L_1_2_Materials.cpp.i
+.PHONY : L_1_2_Materials.cpp.i
+
+L_1_2_Materials.s: L_1_2_Materials.cpp.s
+
+.PHONY : L_1_2_Materials.s
+
+# target to generate assembly for a file
+L_1_2_Materials.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/L_1_2_Materials.cpp.s
+.PHONY : L_1_2_Materials.cpp.s
+
+L_1_3_LightingMaps.o: L_1_3_LightingMaps.cpp.o
+
+.PHONY : L_1_3_LightingMaps.o
+
+# target to build an object file
+L_1_3_LightingMaps.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/L_1_3_LightingMaps.cpp.o
+.PHONY : L_1_3_LightingMaps.cpp.o
+
+L_1_3_LightingMaps.i: L_1_3_LightingMaps.cpp.i
+
+.PHONY : L_1_3_LightingMaps.i
+
+# target to preprocess a source file
+L_1_3_LightingMaps.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/L_1_3_LightingMaps.cpp.i
+.PHONY : L_1_3_LightingMaps.cpp.i
+
+L_1_3_LightingMaps.s: L_1_3_LightingMaps.cpp.s
+
+.PHONY : L_1_3_LightingMaps.s
+
+# target to generate assembly for a file
+L_1_3_LightingMaps.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/L_1_3_LightingMaps.cpp.s
+.PHONY : L_1_3_LightingMaps.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
+	@echo "... L_1_3_LightingMaps"
 	@echo "... L_0_8"
+	@echo "... L_1_1"
+	@echo "... rebuild_cache"
+	@echo "... L_1_0"
+	@echo "... L_1_2_Materials"
 	@echo "... L_0_6"
 	@echo "... L_0_7"
 	@echo "... edit_cache"
 	@echo "... L_0_1-6"
+	@echo "... install/local"
 	@echo "... L_0_9"
 	@echo "... uninstall"
 	@echo "... glfw"
@@ -458,6 +634,18 @@ help:
 	@echo "... L_0_9_Camera.o"
 	@echo "... L_0_9_Camera.i"
 	@echo "... L_0_9_Camera.s"
+	@echo "... L_1_0_ColorInit.o"
+	@echo "... L_1_0_ColorInit.i"
+	@echo "... L_1_0_ColorInit.s"
+	@echo "... L_1_1_BaseLighting.o"
+	@echo "... L_1_1_BaseLighting.i"
+	@echo "... L_1_1_BaseLighting.s"
+	@echo "... L_1_2_Materials.o"
+	@echo "... L_1_2_Materials.i"
+	@echo "... L_1_2_Materials.s"
+	@echo "... L_1_3_LightingMaps.o"
+	@echo "... L_1_3_LightingMaps.i"
+	@echo "... L_1_3_LightingMaps.s"
 .PHONY : help
 
 
