@@ -738,6 +738,17 @@
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/filesystem.h">
+			<Option target="L_1_3_LightingMaps"/>
+			<Option target="L_0_8"/>
+			<Option target="L_1_1"/>
+			<Option target="L_1_0"/>
+			<Option target="L_1_2_Materials"/>
+			<Option target="L_0_6"/>
+			<Option target="L_0_7"/>
+			<Option target="L_0_1-6"/>
+			<Option target="L_0_9"/>
+		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/shader.h">
 			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>

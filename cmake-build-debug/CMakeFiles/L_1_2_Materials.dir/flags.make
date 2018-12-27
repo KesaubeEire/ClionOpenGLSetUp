@@ -9,7 +9,7 @@ C_DEFINES =
 
 C_INCLUDES = -I/Users/w/CLionProjects/OpenGL_awesome/include -I/Users/w/CLionProjects/OpenGL_awesome/GLAD/include -I/Users/w/CLionProjects/OpenGL_awesome/glm/include -I/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include 
 
-CXX_FLAGS = -g   -std=gnu++11
+CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 

@@ -893,6 +893,8 @@ dependencies/stb_image.h
 /Users/w/CLionProjects/OpenGL_awesome/dependencies/stb_image.h
 dependencies/Camera.h
 /Users/w/CLionProjects/OpenGL_awesome/dependencies/Camera.h
+dependencies/filesystem.h
+/Users/w/CLionProjects/OpenGL_awesome/dependencies/filesystem.h
 cstdio
 -
 cstdlib
@@ -920,6 +922,12 @@ glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 vector
+-
+
+/Users/w/CLionProjects/OpenGL_awesome/dependencies/filesystem.h
+string
+-
+cstdlib
 -
 
 /Users/w/CLionProjects/OpenGL_awesome/dependencies/shader.h

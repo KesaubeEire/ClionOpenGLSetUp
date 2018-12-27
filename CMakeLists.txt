@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.13)
 project(OpenGLSetup)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES GLAD/src/glad.c)
-set(HEADER_FILES dependencies/Camera.h dependencies/shader.h)
+set(HEADER_FILES dependencies/Camera.h dependencies/shader.h dependencies/filesystem.h)
 
 set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${dir}/build)
