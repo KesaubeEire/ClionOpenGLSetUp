@@ -57,18 +57,18 @@ include CMakeFiles/1_5_MultipleLights.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1_5_MultipleLights.dir/flags.make
 
-CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o: CMakeFiles/1_5_MultipleLights.dir/flags.make
-CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o: ../L_1_4_LightCasters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o -c /Users/w/CLionProjects/OpenGL_awesome/L_1_4_LightCasters.cpp
+CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o: CMakeFiles/1_5_MultipleLights.dir/flags.make
+CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o: ../L_1_5_MultipleLights.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o -c /Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp
 
-CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/w/CLionProjects/OpenGL_awesome/L_1_4_LightCasters.cpp > CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.i
+CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp > CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.i
 
-CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/w/CLionProjects/OpenGL_awesome/L_1_4_LightCasters.cpp -o CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.s
+CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp -o CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.s
 
 CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o: CMakeFiles/1_5_MultipleLights.dir/flags.make
 CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o: ../GLAD/src/glad.c
@@ -85,13 +85,13 @@ CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.s: cmake_force
 
 # Object files for target 1_5_MultipleLights
 1_5_MultipleLights_OBJECTS = \
-"CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o" \
+"CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o" \
 "CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o"
 
 # External object files for target 1_5_MultipleLights
 1_5_MultipleLights_EXTERNAL_OBJECTS =
 
-../build/1_5_MultipleLights: CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o
+../build/1_5_MultipleLights: CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o
 ../build/1_5_MultipleLights: CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o
 ../build/1_5_MultipleLights: CMakeFiles/1_5_MultipleLights.dir/build.make
 ../build/1_5_MultipleLights: dependencies/GLFW/src/libglfw3.a

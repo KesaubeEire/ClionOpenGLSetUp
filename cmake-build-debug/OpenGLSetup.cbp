@@ -483,6 +483,58 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="L_1_5_MultipleLights">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_5_MultipleLights" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_5_MultipleLights"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_1_5_MultipleLights/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_1_5_MultipleLights" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_5_MultipleLights/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="L_0_1-6">
 				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_0_1-6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
@@ -530,58 +582,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_0_1-6/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1_5_MultipleLights">
-				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/1_5_MultipleLights" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_5_MultipleLights"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1_5_MultipleLights/fast">
-				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/1_5_MultipleLights" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
-					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_5_MultipleLights/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -727,8 +727,8 @@
 			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
+			<Option target="L_1_5_MultipleLights"/>
 			<Option target="L_0_1-6"/>
-			<Option target="1_5_MultipleLights"/>
 			<Option target="L_0_9"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_0_1-6_BeforeTransform.cpp">
@@ -760,7 +760,9 @@
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_4_LightCasters.cpp">
 			<Option target="L_1_4_LightCasters"/>
-			<Option target="1_5_MultipleLights"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp">
+			<Option target="L_1_5_MultipleLights"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
@@ -774,8 +776,8 @@
 			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
+			<Option target="L_1_5_MultipleLights"/>
 			<Option target="L_0_1-6"/>
-			<Option target="1_5_MultipleLights"/>
 			<Option target="L_0_9"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include/GLFW/glfw3.h">
@@ -859,8 +861,8 @@
 			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
+			<Option target="L_1_5_MultipleLights"/>
 			<Option target="L_0_1-6"/>
-			<Option target="1_5_MultipleLights"/>
 			<Option target="L_0_9"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/shader.h">
@@ -872,8 +874,8 @@
 			<Option target="L_1_2_Materials"/>
 			<Option target="L_0_6"/>
 			<Option target="L_0_7"/>
+			<Option target="L_1_5_MultipleLights"/>
 			<Option target="L_0_1-6"/>
-			<Option target="1_5_MultipleLights"/>
 			<Option target="L_0_9"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/CMakeLists.txt">

@@ -261,6 +261,19 @@ L_0_7/fast:
 .PHONY : L_0_7/fast
 
 #=============================================================================
+# Target rules for targets named L_1_5_MultipleLights
+
+# Build rule for target.
+L_1_5_MultipleLights: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_5_MultipleLights
+.PHONY : L_1_5_MultipleLights
+
+# fast build rule for target.
+L_1_5_MultipleLights/fast:
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/build
+.PHONY : L_1_5_MultipleLights/fast
+
+#=============================================================================
 # Target rules for targets named L_0_1-6
 
 # Build rule for target.
@@ -272,19 +285,6 @@ L_0_1-6: cmake_check_build_system
 L_0_1-6/fast:
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/build
 .PHONY : L_0_1-6/fast
-
-#=============================================================================
-# Target rules for targets named 1_5_MultipleLights
-
-# Build rule for target.
-1_5_MultipleLights: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1_5_MultipleLights
-.PHONY : 1_5_MultipleLights
-
-# fast build rule for target.
-1_5_MultipleLights/fast:
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/build
-.PHONY : 1_5_MultipleLights/fast
 
 #=============================================================================
 # Target rules for targets named L_0_9
@@ -339,8 +339,8 @@ GLAD/src/glad.c.o:
 	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.o
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.o
 .PHONY : GLAD/src/glad.c.o
 
@@ -358,8 +358,8 @@ GLAD/src/glad.c.i:
 	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.i
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.i
 .PHONY : GLAD/src/glad.c.i
 
@@ -377,8 +377,8 @@ GLAD/src/glad.c.s:
 	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/GLAD/src/glad.c.s
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/GLAD/src/glad.c.s
 .PHONY : GLAD/src/glad.c.s
 
@@ -632,7 +632,6 @@ L_1_4_LightCasters.o: L_1_4_LightCasters.cpp.o
 # target to build an object file
 L_1_4_LightCasters.cpp.o:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.o
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.o
 .PHONY : L_1_4_LightCasters.cpp.o
 
 L_1_4_LightCasters.i: L_1_4_LightCasters.cpp.i
@@ -642,7 +641,6 @@ L_1_4_LightCasters.i: L_1_4_LightCasters.cpp.i
 # target to preprocess a source file
 L_1_4_LightCasters.cpp.i:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.i
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.i
 .PHONY : L_1_4_LightCasters.cpp.i
 
 L_1_4_LightCasters.s: L_1_4_LightCasters.cpp.s
@@ -652,8 +650,34 @@ L_1_4_LightCasters.s: L_1_4_LightCasters.cpp.s
 # target to generate assembly for a file
 L_1_4_LightCasters.cpp.s:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.s
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/L_1_4_LightCasters.cpp.s
 .PHONY : L_1_4_LightCasters.cpp.s
+
+L_1_5_MultipleLights.o: L_1_5_MultipleLights.cpp.o
+
+.PHONY : L_1_5_MultipleLights.o
+
+# target to build an object file
+L_1_5_MultipleLights.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o
+.PHONY : L_1_5_MultipleLights.cpp.o
+
+L_1_5_MultipleLights.i: L_1_5_MultipleLights.cpp.i
+
+.PHONY : L_1_5_MultipleLights.i
+
+# target to preprocess a source file
+L_1_5_MultipleLights.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.i
+.PHONY : L_1_5_MultipleLights.cpp.i
+
+L_1_5_MultipleLights.s: L_1_5_MultipleLights.cpp.s
+
+.PHONY : L_1_5_MultipleLights.s
+
+# target to generate assembly for a file
+L_1_5_MultipleLights.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.s
+.PHONY : L_1_5_MultipleLights.cpp.s
 
 # Help Target
 help:
@@ -674,8 +698,8 @@ help:
 	@echo "... L_1_2_Materials"
 	@echo "... L_0_6"
 	@echo "... L_0_7"
+	@echo "... L_1_5_MultipleLights"
 	@echo "... L_0_1-6"
-	@echo "... 1_5_MultipleLights"
 	@echo "... install/local"
 	@echo "... L_0_9"
 	@echo "... uninstall"
@@ -713,6 +737,9 @@ help:
 	@echo "... L_1_4_LightCasters.o"
 	@echo "... L_1_4_LightCasters.i"
 	@echo "... L_1_4_LightCasters.s"
+	@echo "... L_1_5_MultipleLights.o"
+	@echo "... L_1_5_MultipleLights.i"
+	@echo "... L_1_5_MultipleLights.s"
 .PHONY : help
 
 

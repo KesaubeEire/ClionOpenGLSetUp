@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
 CMakeFiles/L_1_4_LightCasters.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/depend
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target L_1_4_LightCasters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target L_1_4_LightCasters"
 .PHONY : CMakeFiles/L_1_4_LightCasters.dir/all
 
 # Include target in all.
@@ -108,7 +108,7 @@ clean: CMakeFiles/L_1_4_LightCasters.dir/clean
 CMakeFiles/L_1_3_LightingMaps.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/depend
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target L_1_3_LightingMaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target L_1_3_LightingMaps"
 .PHONY : CMakeFiles/L_1_3_LightingMaps.dir/all
 
 # Include target in all.
@@ -145,7 +145,7 @@ clean: CMakeFiles/L_1_3_LightingMaps.dir/clean
 CMakeFiles/L_0_8.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/depend
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target L_0_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target L_0_8"
 .PHONY : CMakeFiles/L_0_8.dir/all
 
 # Include target in all.
@@ -182,7 +182,7 @@ clean: CMakeFiles/L_0_8.dir/clean
 CMakeFiles/L_1_1.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/depend
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target L_1_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target L_1_1"
 .PHONY : CMakeFiles/L_1_1.dir/all
 
 # Include target in all.
@@ -219,7 +219,7 @@ clean: CMakeFiles/L_1_1.dir/clean
 CMakeFiles/L_1_0.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/depend
 	$(MAKE) -f CMakeFiles/L_1_0.dir/build.make CMakeFiles/L_1_0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target L_1_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target L_1_0"
 .PHONY : CMakeFiles/L_1_0.dir/all
 
 # Include target in all.
@@ -256,7 +256,7 @@ clean: CMakeFiles/L_1_0.dir/clean
 CMakeFiles/L_1_2_Materials.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/depend
 	$(MAKE) -f CMakeFiles/L_1_2_Materials.dir/build.make CMakeFiles/L_1_2_Materials.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target L_1_2_Materials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target L_1_2_Materials"
 .PHONY : CMakeFiles/L_1_2_Materials.dir/all
 
 # Include target in all.
@@ -293,7 +293,7 @@ clean: CMakeFiles/L_1_2_Materials.dir/clean
 CMakeFiles/L_0_6.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/depend
 	$(MAKE) -f CMakeFiles/L_0_6.dir/build.make CMakeFiles/L_0_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target L_0_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target L_0_6"
 .PHONY : CMakeFiles/L_0_6.dir/all
 
 # Include target in all.
@@ -330,7 +330,7 @@ clean: CMakeFiles/L_0_6.dir/clean
 CMakeFiles/L_0_7.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/depend
 	$(MAKE) -f CMakeFiles/L_0_7.dir/build.make CMakeFiles/L_0_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target L_0_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target L_0_7"
 .PHONY : CMakeFiles/L_0_7.dir/all
 
 # Include target in all.
@@ -361,13 +361,50 @@ clean: CMakeFiles/L_0_7.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/L_1_5_MultipleLights.dir
+
+# All Build rule for target.
+CMakeFiles/L_1_5_MultipleLights.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/depend
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target L_1_5_MultipleLights"
+.PHONY : CMakeFiles/L_1_5_MultipleLights.dir/all
+
+# Include target in all.
+all: CMakeFiles/L_1_5_MultipleLights.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/L_1_5_MultipleLights.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/L_1_5_MultipleLights.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/L_1_5_MultipleLights.dir/rule
+
+# Convenience name for target.
+L_1_5_MultipleLights: CMakeFiles/L_1_5_MultipleLights.dir/rule
+
+.PHONY : L_1_5_MultipleLights
+
+# clean rule for target.
+CMakeFiles/L_1_5_MultipleLights.dir/clean:
+	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/clean
+.PHONY : CMakeFiles/L_1_5_MultipleLights.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/L_1_5_MultipleLights.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/L_0_1-6.dir
 
 # All Build rule for target.
 CMakeFiles/L_0_1-6.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/depend
 	$(MAKE) -f CMakeFiles/L_0_1-6.dir/build.make CMakeFiles/L_0_1-6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target L_0_1-6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target L_0_1-6"
 .PHONY : CMakeFiles/L_0_1-6.dir/all
 
 # Include target in all.
@@ -398,50 +435,13 @@ clean: CMakeFiles/L_0_1-6.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1_5_MultipleLights.dir
-
-# All Build rule for target.
-CMakeFiles/1_5_MultipleLights.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/depend
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target 1_5_MultipleLights"
-.PHONY : CMakeFiles/1_5_MultipleLights.dir/all
-
-# Include target in all.
-all: CMakeFiles/1_5_MultipleLights.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1_5_MultipleLights.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 19
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1_5_MultipleLights.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1_5_MultipleLights.dir/rule
-
-# Convenience name for target.
-1_5_MultipleLights: CMakeFiles/1_5_MultipleLights.dir/rule
-
-.PHONY : 1_5_MultipleLights
-
-# clean rule for target.
-CMakeFiles/1_5_MultipleLights.dir/clean:
-	$(MAKE) -f CMakeFiles/1_5_MultipleLights.dir/build.make CMakeFiles/1_5_MultipleLights.dir/clean
-.PHONY : CMakeFiles/1_5_MultipleLights.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/1_5_MultipleLights.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/L_0_9.dir
 
 # All Build rule for target.
 CMakeFiles/L_0_9.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/depend
 	$(MAKE) -f CMakeFiles/L_0_9.dir/build.make CMakeFiles/L_0_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target L_0_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target L_0_9"
 .PHONY : CMakeFiles/L_0_9.dir/all
 
 # Include target in all.

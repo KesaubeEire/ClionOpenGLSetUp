@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/w/CLionProjects/OpenGL_awesome/GLAD/src/glad.c" "/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles/1_5_MultipleLights.dir/GLAD/src/glad.c.o"
+  "/Users/w/CLionProjects/OpenGL_awesome/GLAD/src/glad.c" "/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles/L_1_5_MultipleLights.dir/GLAD/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -17,7 +17,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../dependencies/GLFW/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp" "/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles/1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o"
+  "/Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp" "/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles/L_1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
