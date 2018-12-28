@@ -65,6 +65,43 @@ CMAKE_SOURCE_DIR = /Users/w/CLionProjects/OpenGL_awesome
 CMAKE_BINARY_DIR = /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/L_1_4_LightCasters.dir
+
+# All Build rule for target.
+CMakeFiles/L_1_4_LightCasters.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/depend
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target L_1_4_LightCasters"
+.PHONY : CMakeFiles/L_1_4_LightCasters.dir/all
+
+# Include target in all.
+all: CMakeFiles/L_1_4_LightCasters.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/L_1_4_LightCasters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/L_1_4_LightCasters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/L_1_4_LightCasters.dir/rule
+
+# Convenience name for target.
+L_1_4_LightCasters: CMakeFiles/L_1_4_LightCasters.dir/rule
+
+.PHONY : L_1_4_LightCasters
+
+# clean rule for target.
+CMakeFiles/L_1_4_LightCasters.dir/clean:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/clean
+.PHONY : CMakeFiles/L_1_4_LightCasters.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/L_1_4_LightCasters.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/L_1_3_LightingMaps.dir
 
 # All Build rule for target.
@@ -491,7 +528,7 @@ dependencies/GLFW/src/preinstall:
 dependencies/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f dependencies/GLFW/src/CMakeFiles/glfw.dir/build.make dependencies/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f dependencies/GLFW/src/CMakeFiles/glfw.dir/build.make dependencies/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target glfw"
 .PHONY : dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.

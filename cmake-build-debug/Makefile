@@ -157,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named L_1_4_LightCasters
+
+# Build rule for target.
+L_1_4_LightCasters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_1_4_LightCasters
+.PHONY : L_1_4_LightCasters
+
+# fast build rule for target.
+L_1_4_LightCasters/fast:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/build
+.PHONY : L_1_4_LightCasters/fast
+
+#=============================================================================
 # Target rules for targets named L_1_3_LightingMaps
 
 # Build rule for target.
@@ -305,6 +318,7 @@ GLAD/src/glad.o: GLAD/src/glad.c.o
 
 # target to build an object file
 GLAD/src/glad.c.o:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.o
@@ -322,6 +336,7 @@ GLAD/src/glad.i: GLAD/src/glad.c.i
 
 # target to preprocess a source file
 GLAD/src/glad.c.i:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.i
@@ -339,6 +354,7 @@ GLAD/src/glad.s: GLAD/src/glad.c.s
 
 # target to generate assembly for a file
 GLAD/src/glad.c.s:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.s
@@ -593,6 +609,33 @@ L_1_3_LightingMaps.cpp.s:
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/L_1_3_LightingMaps.cpp.s
 .PHONY : L_1_3_LightingMaps.cpp.s
 
+L_1_4_LightCasters.o: L_1_4_LightCasters.cpp.o
+
+.PHONY : L_1_4_LightCasters.o
+
+# target to build an object file
+L_1_4_LightCasters.cpp.o:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.o
+.PHONY : L_1_4_LightCasters.cpp.o
+
+L_1_4_LightCasters.i: L_1_4_LightCasters.cpp.i
+
+.PHONY : L_1_4_LightCasters.i
+
+# target to preprocess a source file
+L_1_4_LightCasters.cpp.i:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.i
+.PHONY : L_1_4_LightCasters.cpp.i
+
+L_1_4_LightCasters.s: L_1_4_LightCasters.cpp.s
+
+.PHONY : L_1_4_LightCasters.s
+
+# target to generate assembly for a file
+L_1_4_LightCasters.cpp.s:
+	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.s
+.PHONY : L_1_4_LightCasters.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -602,10 +645,11 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... L_1_4_LightCasters"
 	@echo "... L_1_3_LightingMaps"
 	@echo "... L_0_8"
 	@echo "... L_1_1"
-	@echo "... rebuild_cache"
 	@echo "... L_1_0"
 	@echo "... L_1_2_Materials"
 	@echo "... L_0_6"
@@ -646,6 +690,9 @@ help:
 	@echo "... L_1_3_LightingMaps.o"
 	@echo "... L_1_3_LightingMaps.i"
 	@echo "... L_1_3_LightingMaps.s"
+	@echo "... L_1_4_LightCasters.o"
+	@echo "... L_1_4_LightCasters.i"
+	@echo "... L_1_4_LightCasters.s"
 .PHONY : help
 
 
