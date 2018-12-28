@@ -236,22 +236,24 @@ int main()
             lightingShader.use();
 
             // 给环境光照因子 -> 环境光照
-            lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
-            lightingShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f); // 将光照调暗了一些以搭配场景
+            lightingShader.setVec3("light.ambient", 0.1f, 0.1f, 0.1f);
+            lightingShader.setVec3("light.diffuse", 0.8f, 0.8f, 0.8f); // 将光照调暗了一些以搭配场景
             lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
-            lightingShader.setVec3("light.position",lightPos);//给光的方向    -> 漫反射
+            lightingShader.setVec3("light.position", camera.Position);
+            lightingShader.setVec3("light.direction", camera.Front); // 实现一个手电筒的功能
+            lightingShader.setFloat("light.cutOff", glm::cos(glm::radians(12.5f)));
+            lightingShader.setFloat("light.outerCutOff", glm::cos(glm::radians(17.5f)));
 
 
             // 给摄像机的位置 -> 镜面反射
             lightingShader.setVec3("viewPos", camera.Position);
 
             // 给各种参数    -> 镜面反射
-            lightingShader.setVec3("material.ambient", 0.0, 0.1, 0.06);
             lightingShader.setFloat("material.shininess", 32.0f);
 
             // 给各种参数    -> 点光源衰减
-            lightingShader.setFloat("light.constant",  1.0f);
-            lightingShader.setFloat("light.linear",    0.09f);
+            lightingShader.setFloat("light.constant", 1.0f);
+            lightingShader.setFloat("light.linear", 0.09f);
             lightingShader.setFloat("light.quadratic", 0.032f);
 
             // Coordinate
@@ -275,7 +277,7 @@ int main()
             glBindTexture(GL_TEXTURE_2D, specularMap);
 
             glBindVertexArray(cubeVAO);
-            for(unsigned int i = 0; i < 10; i++)
+            for (unsigned int i = 0; i < 10; i++)
             {
                 glm::mat4 model;
                 model = glm::translate(model, cubePositions[i]);

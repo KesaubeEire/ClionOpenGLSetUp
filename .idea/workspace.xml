@@ -2,8 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="OpenGLSetup" targetName="glfw" />
+      <config projectName="OpenGLSetup" targetName="L_1_2_Materials" />
       <config projectName="OpenGLSetup" targetName="L_1_0" />
       <config projectName="OpenGLSetup" targetName="L_1_1" />
+      <config projectName="OpenGLSetup" targetName="1_5_MultipleLights" />
       <config projectName="OpenGLSetup" targetName="L_0_1-6" />
       <config projectName="OpenGLSetup" targetName="L_0_7" />
       <config projectName="OpenGLSetup" targetName="L_0_6" />
@@ -12,8 +15,6 @@
       <config projectName="OpenGLSetup" targetName="L_0_9" />
       <config projectName="OpenGLSetup" targetName="L_0_8" />
       <config projectName="OpenGLSetup" targetName="L_1_4_LightCasters" />
-      <config projectName="OpenGLSetup" targetName="glfw" />
-      <config projectName="OpenGLSetup" targetName="L_1_2_Materials" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -25,6 +26,20 @@
     <list default="true" id="a555780d-d44c-4c2e-91bb-759035baca43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L_1_4_LightCasters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/L_1_4_LightCasters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/L_1_4_LightCasters" beforeDir="false" afterPath="$PROJECT_DIR$/build/L_1_4_LightCasters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/shaders/fs_1_4.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/build/shaders/fs_1_4.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_1-6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_1-6.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_6.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_7.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_8.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_0_9.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_0.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_0.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_2_Materials.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_2_Materials.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_3_LightingMaps.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_3_LightingMaps.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_4_LightCasters.dir/L_1_4_LightCasters.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_4_LightCasters.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/L_1_4_LightCasters.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -32,6 +47,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGLSetup.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGLSetup.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/dependencies/GLFW/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dependencies/GLFW/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaders/fs_1_4.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shaders/fs_1_4.glsl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -64,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="1149">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -90,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L_1_4_LightCasters.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="244" column="30" lean-forward="true" selection-start-line="244" selection-start-column="30" selection-end-line="244" selection-end-column="30" />
+            <state relative-caret-position="977">
+              <caret line="243" column="76" selection-start-line="243" selection-start-column="76" selection-end-line="243" selection-end-column="76" />
               <folding>
                 <element signature="e#20#42#0" expanded="true" />
                 <element signature="e#133#168#0" expanded="true" />
@@ -100,20 +116,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shaders/fs_1_4.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="1296">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_5_MultipleLights.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shaders/vs_1_4.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="456">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -197,9 +218,10 @@
         <option value="$PROJECT_DIR$/dependencies/filesystem.h" />
         <option value="$PROJECT_DIR$/shaders/fs_1_3.glsl" />
         <option value="$PROJECT_DIR$/L_1_3_LightingMaps.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/shaders/fs_1_4.c" />
         <option value="$PROJECT_DIR$/L_1_4_LightCasters.cpp" />
         <option value="$PROJECT_DIR$/shaders/fs_1_4.glsl" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -278,7 +300,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -298,6 +320,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.L_1_4_LightCasters">
+    <configuration name="1_5_MultipleLights" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="1_5_MultipleLights" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="1_5_MultipleLights">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="L_0_1-6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLSetup" TARGET_NAME="L_0_1-6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLSetup" RUN_TARGET_NAME="L_0_1-6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -349,6 +376,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.1_5_MultipleLights" />
       <item itemvalue="Application.L_0_1-6" />
       <item itemvalue="Application.L_0_6" />
       <item itemvalue="Application.L_0_7" />
@@ -374,12 +402,12 @@
       <workItem from="1545390904472" duration="159000" />
       <workItem from="1545391103148" duration="38343000" />
       <workItem from="1545632832097" duration="11232000" />
-      <workItem from="1545707128574" duration="43756000" />
+      <workItem from="1545707128574" duration="46369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93490000" />
+    <option name="totallyTimeSpent" value="96103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,6 +422,28 @@
     <frame x="-1080" y="-1487" width="1080" height="1894" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" content_ui="combo" id="Project" order="1" sideWeight="0.35992578" visible="true" weight="0.25555557" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49385053" weight="0.32944444" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49952698" weight="0.27682045" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.63821894" side_tool="true" weight="0.2797553" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6400742" side_tool="true" weight="0.25555557" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6348155" side_tool="true" weight="0.2625139" />
+      <window_info active="true" anchor="bottom" id="CMake" order="10" sideWeight="0.6400742" side_tool="true" visible="true" weight="0.25555557" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.6400742" side_tool="true" weight="0.25555557" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
+      <window_info anchor="bottom" id="Structure" order="14" weight="0.2495831" />
+      <window_info anchor="bottom" id="Favorites" order="15" weight="0.24402446" />
+      <window_info anchor="bottom" id="Database" order="16" sideWeight="0.63821894" side_tool="true" weight="0.2797553" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" content_ui="combo" id="Project" order="1" sideWeight="0.35992578" visible="true" weight="0.25555557" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49385053" weight="0.32962757" />
@@ -414,41 +464,12 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="1" sideWeight="0.36329234" visible="true" weight="0.2797553" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49385053" weight="0.32962757" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49952698" weight="0.27682045" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6357616" side_tool="true" weight="0.2625139" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6357616" side_tool="true" weight="0.2625139" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6348155" side_tool="true" weight="0.2625139" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.63670766" side_tool="true" weight="0.2797553" />
-      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.63670766" side_tool="true" visible="true" weight="0.2797553" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5061495" side_tool="true" weight="0.30183434" />
-      <window_info anchor="bottom" id="Structure" order="14" weight="0.2495831" />
-      <window_info anchor="bottom" id="Favorites" order="15" weight="0.24402446" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shaders/fs_1_0.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_0.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -802,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_4.glsl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shaders/lamp_fs_1_4.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -819,10 +830,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vs_1_4.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/L_1_4_LightCasters.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="244" column="30" lean-forward="true" selection-start-line="244" selection-start-column="30" selection-end-line="244" selection-end-column="30" />
+        <state relative-caret-position="977">
+          <caret line="243" column="76" selection-start-line="243" selection-start-column="76" selection-end-line="243" selection-end-column="76" />
           <folding>
             <element signature="e#20#42#0" expanded="true" />
             <element signature="e#133#168#0" expanded="true" />
@@ -830,17 +848,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/vs_1_4.glsl">
+    <entry file="file://$PROJECT_DIR$/shaders/fs_1_4.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="1296">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shaders/fs_1_4.glsl">
+    <entry file="file://$PROJECT_DIR$/1_5_MultipleLights.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lamp_vs_1_4.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="1149">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>

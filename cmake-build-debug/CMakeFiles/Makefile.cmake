@@ -79,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/L_0_6.dir/DependInfo.cmake"
   "CMakeFiles/L_0_7.dir/DependInfo.cmake"
   "CMakeFiles/L_0_1-6.dir/DependInfo.cmake"
+  "CMakeFiles/1_5_MultipleLights.dir/DependInfo.cmake"
   "CMakeFiles/L_0_9.dir/DependInfo.cmake"
   "dependencies/GLFW/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "dependencies/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"

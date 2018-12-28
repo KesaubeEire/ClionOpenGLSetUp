@@ -53,3 +53,6 @@ target_link_libraries(L_1_3_LightingMaps glfw)
 
 add_executable(L_1_4_LightCasters L_1_4_LightCasters.cpp ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(L_1_4_LightCasters glfw)
+
+add_executable(1_5_MultipleLights L_1_4_LightCasters.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(1_5_MultipleLights glfw)
