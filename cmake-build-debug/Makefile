@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -82,13 +70,24 @@ install/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"headers\" \"pkgconfig\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -101,16 +100,39 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cpack" --config ./CPackSourceConfig.cmake /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target package_source
+package_source/fast: package_source
 
-.PHONY : edit_cache/fast
+.PHONY : package_source/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cpack" --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -168,6 +190,19 @@ L_1_4_LightCasters: cmake_check_build_system
 L_1_4_LightCasters/fast:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/build
 .PHONY : L_1_4_LightCasters/fast
+
+#=============================================================================
+# Target rules for targets named L_7_2_FontTrueType
+
+# Build rule for target.
+L_7_2_FontTrueType: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 L_7_2_FontTrueType
+.PHONY : L_7_2_FontTrueType
+
+# fast build rule for target.
+L_7_2_FontTrueType/fast:
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/build
+.PHONY : L_7_2_FontTrueType/fast
 
 #=============================================================================
 # Target rules for targets named L_1_3_LightingMaps
@@ -325,6 +360,19 @@ glfw/fast:
 	$(MAKE) -f dependencies/GLFW/src/CMakeFiles/glfw.dir/build.make dependencies/GLFW/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+#=============================================================================
+# Target rules for targets named freetype
+
+# Build rule for target.
+freetype: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 freetype
+.PHONY : freetype
+
+# fast build rule for target.
+freetype/fast:
+	$(MAKE) -f dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build.make dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build
+.PHONY : freetype/fast
+
 GLAD/src/glad.o: GLAD/src/glad.c.o
 
 .PHONY : GLAD/src/glad.o
@@ -332,6 +380,7 @@ GLAD/src/glad.o: GLAD/src/glad.c.o
 # target to build an object file
 GLAD/src/glad.c.o:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.o
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.o
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.o
@@ -351,6 +400,7 @@ GLAD/src/glad.i: GLAD/src/glad.c.i
 # target to preprocess a source file
 GLAD/src/glad.c.i:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.i
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.i
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.i
@@ -370,6 +420,7 @@ GLAD/src/glad.s: GLAD/src/glad.c.s
 # target to generate assembly for a file
 GLAD/src/glad.c.s:
 	$(MAKE) -f CMakeFiles/L_1_4_LightCasters.dir/build.make CMakeFiles/L_1_4_LightCasters.dir/GLAD/src/glad.c.s
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_1_3_LightingMaps.dir/build.make CMakeFiles/L_1_3_LightingMaps.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_0_8.dir/build.make CMakeFiles/L_0_8.dir/GLAD/src/glad.c.s
 	$(MAKE) -f CMakeFiles/L_1_1.dir/build.make CMakeFiles/L_1_1.dir/GLAD/src/glad.c.s
@@ -679,18 +730,48 @@ L_1_5_MultipleLights.cpp.s:
 	$(MAKE) -f CMakeFiles/L_1_5_MultipleLights.dir/build.make CMakeFiles/L_1_5_MultipleLights.dir/L_1_5_MultipleLights.cpp.s
 .PHONY : L_1_5_MultipleLights.cpp.s
 
+L_7_2_FontTrueType.o: L_7_2_FontTrueType.cpp.o
+
+.PHONY : L_7_2_FontTrueType.o
+
+# target to build an object file
+L_7_2_FontTrueType.cpp.o:
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/L_7_2_FontTrueType.cpp.o
+.PHONY : L_7_2_FontTrueType.cpp.o
+
+L_7_2_FontTrueType.i: L_7_2_FontTrueType.cpp.i
+
+.PHONY : L_7_2_FontTrueType.i
+
+# target to preprocess a source file
+L_7_2_FontTrueType.cpp.i:
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/L_7_2_FontTrueType.cpp.i
+.PHONY : L_7_2_FontTrueType.cpp.i
+
+L_7_2_FontTrueType.s: L_7_2_FontTrueType.cpp.s
+
+.PHONY : L_7_2_FontTrueType.s
+
+# target to generate assembly for a file
+L_7_2_FontTrueType.cpp.s:
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/L_7_2_FontTrueType.cpp.s
+.PHONY : L_7_2_FontTrueType.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... package_source"
+	@echo "... install/strip"
+	@echo "... package"
 	@echo "... L_1_4_LightCasters"
+	@echo "... L_7_2_FontTrueType"
 	@echo "... L_1_3_LightingMaps"
 	@echo "... L_0_8"
 	@echo "... L_1_1"
@@ -704,6 +785,7 @@ help:
 	@echo "... L_0_9"
 	@echo "... uninstall"
 	@echo "... glfw"
+	@echo "... freetype"
 	@echo "... GLAD/src/glad.o"
 	@echo "... GLAD/src/glad.i"
 	@echo "... GLAD/src/glad.s"
@@ -740,6 +822,9 @@ help:
 	@echo "... L_1_5_MultipleLights.o"
 	@echo "... L_1_5_MultipleLights.i"
 	@echo "... L_1_5_MultipleLights.s"
+	@echo "... L_7_2_FontTrueType.o"
+	@echo "... L_7_2_FontTrueType.i"
+	@echo "... L_7_2_FontTrueType.s"
 .PHONY : help
 
 

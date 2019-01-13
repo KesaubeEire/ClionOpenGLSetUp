@@ -3,8 +3,8 @@ project(OpenGLSetup)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES GLAD/src/glad.c)
-set(HEADER_FILES dependencies/Camera.h dependencies/shader.h dependencies/filesystem.h)
+set(SOURCE_FILES)
+set(HEADER_FILES GLAD/src/glad.c dependencies/Camera.h dependencies/shader.h dependencies/filesystem.h freetype/freetype.h)
 
 set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${dir}/build)
@@ -56,3 +56,6 @@ target_link_libraries(L_1_4_LightCasters glfw)
 
 add_executable(L_1_5_MultipleLights L_1_5_MultipleLights.cpp ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(L_1_5_MultipleLights glfw)
+
+add_executable(L_7_2_FontTrueType L_7_2_FontTrueType.cpp ${SOURCE_FILES} ${HEADER_FILES})
+target_link_libraries(L_7_2_FontTrueType glfw)

@@ -5,23 +5,13 @@
 		<Option title="OpenGLSetup"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;CMake Files\dependencies\freetype-2.9.1\;CMake Files\dependencies\freetype-2.9.1\builds\;CMake Files\dependencies\freetype-2.9.1\builds\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/strip">
-				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -47,6 +37,16 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
 				<Option type="4"/>
@@ -57,11 +57,31 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="package_source">
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -114,6 +134,58 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_1_4_LightCasters/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_7_2_FontTrueType">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_7_2_FontTrueType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_7_2_FontTrueType"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L_7_2_FontTrueType/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/build/L_7_2_FontTrueType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 L_7_2_FontTrueType/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -717,9 +789,68 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="freetype">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/libfreetyped.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include"/>
+					<Add directory="/usr/local/include/harfbuzz"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 freetype"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freetype/fast">
+				<Option output="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/libfreetyped.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/GLAD/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/glm/include"/>
+					<Add directory="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include"/>
+					<Add directory="/usr/local/include/harfbuzz"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 freetype/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/GLAD/src/glad.c">
 			<Option target="L_1_4_LightCasters"/>
+			<Option target="L_7_2_FontTrueType"/>
 			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
 			<Option target="L_1_1"/>
@@ -764,11 +895,15 @@
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_1_5_MultipleLights.cpp">
 			<Option target="L_1_5_MultipleLights"/>
 		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/L_7_2_FontTrueType.cpp">
+			<Option target="L_7_2_FontTrueType"/>
+		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/Camera.h">
 			<Option target="L_1_4_LightCasters"/>
+			<Option target="L_7_2_FontTrueType"/>
 			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
 			<Option target="L_1_1"/>
@@ -854,6 +989,7 @@
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/filesystem.h">
 			<Option target="L_1_4_LightCasters"/>
+			<Option target="L_7_2_FontTrueType"/>
 			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
 			<Option target="L_1_1"/>
@@ -865,8 +1001,371 @@
 			<Option target="L_0_1-6"/>
 			<Option target="L_0_9"/>
 		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/config/ftconfig.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/config/ftheader.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/config/ftmodule.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/config/ftoption.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/config/ftstdlib.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/freetype.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftadvanc.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftbbox.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftbdf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftbitmap.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftbzip2.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftcache.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftchapters.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftcid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftdriver.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/fterrdef.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/fterrors.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftfntfmt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftgasp.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftglyph.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftgxval.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftgzip.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftimage.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftincrem.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftlcdfil.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftlist.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftlzw.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftmac.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftmm.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftmodapi.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftmoderr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftotval.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftoutln.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftparams.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftpfr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftrender.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftsizes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftsnames.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftstroke.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftsynth.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftsystem.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/fttrigon.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/fttypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ftwinfnt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/autohint.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/cffotypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/cfftypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftcalc.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftdebug.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftdrv.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftgloadr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/fthash.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftmemory.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftobjs.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftpic.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftpsprop.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftrfork.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftserv.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftstream.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/fttrace.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/ftvalid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/internal.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/psaux.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/pshints.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/sfnt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/t1types.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/internal/tttypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/t1tables.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/ttnameid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/tttables.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/freetype/tttags.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/include/ft2build.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/autofit/autofit.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftbase.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftbase.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftbbox.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftbdf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftbitmap.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftcid.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftdebug.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftfstype.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftgasp.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftglyph.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftgxval.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftinit.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftmm.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftotval.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftpatent.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftpfr.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftstroke.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftsynth.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftsystem.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/fttype1.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/base/ftwinfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/bdf/bdf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/bdf/bdf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/bzip2/ftbzip2.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/cache/ftcache.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/cff/cff.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/cid/type1cid.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/gzip/ftgzip.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/lzw/ftlzw.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/pcf/pcf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/pcf/pcf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/pfr/pfr.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/psaux/psaux.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/pshinter/pshinter.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/psnames/psnames.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/raster/raster.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/sfnt/sfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/smooth/smooth.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/truetype/truetype.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/type1/type1.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/type42/type42.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/winfonts/winfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/src/winfonts/winfnt.h">
+			<Option target="freetype"/>
+		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/shader.h">
 			<Option target="L_1_4_LightCasters"/>
+			<Option target="L_7_2_FontTrueType"/>
+			<Option target="L_1_3_LightingMaps"/>
+			<Option target="L_0_8"/>
+			<Option target="L_1_1"/>
+			<Option target="L_1_0"/>
+			<Option target="L_1_2_Materials"/>
+			<Option target="L_0_6"/>
+			<Option target="L_0_7"/>
+			<Option target="L_1_5_MultipleLights"/>
+			<Option target="L_0_1-6"/>
+			<Option target="L_0_9"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/freetype/freetype.h">
+			<Option target="L_1_4_LightCasters"/>
+			<Option target="L_7_2_FontTrueType"/>
 			<Option target="L_1_3_LightingMaps"/>
 			<Option target="L_0_8"/>
 			<Option target="L_1_1"/>
@@ -904,6 +1403,12 @@
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\freetype-2.9.1\"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/builds/cmake/FindHarfBuzz.cmake">
+			<Option virtualFolder="CMake Files\dependencies\freetype-2.9.1\builds\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

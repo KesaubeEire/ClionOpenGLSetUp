@@ -5,7 +5,7 @@
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;CMake Files\dependencies\freetype-2.9.1\;CMake Files\dependencies\freetype-2.9.1\builds\;CMake Files\dependencies\freetype-2.9.1\builds\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW"/>
@@ -187,6 +187,12 @@
 		</Unit>
 		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/GLFW/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\freetype-2.9.1\"/>
+		</Unit>
+		<Unit filename="/Users/w/CLionProjects/OpenGL_awesome/dependencies/freetype-2.9.1/builds/cmake/FindHarfBuzz.cmake">
+			<Option virtualFolder="CMake Files\dependencies\freetype-2.9.1\builds\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -102,6 +102,43 @@ clean: CMakeFiles/L_1_4_LightCasters.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/L_7_2_FontTrueType.dir
+
+# All Build rule for target.
+CMakeFiles/L_7_2_FontTrueType.dir/all: dependencies/GLFW/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/depend
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=34,35,36 "Built target L_7_2_FontTrueType"
+.PHONY : CMakeFiles/L_7_2_FontTrueType.dir/all
+
+# Include target in all.
+all: CMakeFiles/L_7_2_FontTrueType.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/L_7_2_FontTrueType.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/L_7_2_FontTrueType.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/L_7_2_FontTrueType.dir/rule
+
+# Convenience name for target.
+L_7_2_FontTrueType: CMakeFiles/L_7_2_FontTrueType.dir/rule
+
+.PHONY : L_7_2_FontTrueType
+
+# clean rule for target.
+CMakeFiles/L_7_2_FontTrueType.dir/clean:
+	$(MAKE) -f CMakeFiles/L_7_2_FontTrueType.dir/build.make CMakeFiles/L_7_2_FontTrueType.dir/clean
+.PHONY : CMakeFiles/L_7_2_FontTrueType.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/L_7_2_FontTrueType.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/L_1_3_LightingMaps.dir
 
 # All Build rule for target.
@@ -476,16 +513,19 @@ clean: CMakeFiles/L_0_9.dir/clean
 
 # Convenience name for "all" pass in the directory.
 dependencies/all: dependencies/GLFW/all
+dependencies/all: dependencies/freetype-2.9.1/all
 
 .PHONY : dependencies/all
 
 # Convenience name for "clean" pass in the directory.
 dependencies/clean: dependencies/GLFW/clean
+dependencies/clean: dependencies/freetype-2.9.1/clean
 
 .PHONY : dependencies/clean
 
 # Convenience name for "preinstall" pass in the directory.
 dependencies/preinstall: dependencies/GLFW/preinstall
+dependencies/preinstall: dependencies/freetype-2.9.1/preinstall
 
 .PHONY : dependencies/preinstall
 
@@ -565,7 +605,7 @@ dependencies/GLFW/src/preinstall:
 dependencies/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f dependencies/GLFW/src/CMakeFiles/glfw.dir/build.make dependencies/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f dependencies/GLFW/src/CMakeFiles/glfw.dir/build.make dependencies/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target glfw"
 .PHONY : dependencies/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -592,6 +632,61 @@ dependencies/GLFW/src/CMakeFiles/glfw.dir/clean:
 
 # clean rule for target.
 clean: dependencies/GLFW/src/CMakeFiles/glfw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory dependencies/freetype-2.9.1
+
+# Convenience name for "all" pass in the directory.
+dependencies/freetype-2.9.1/all: dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/all
+
+.PHONY : dependencies/freetype-2.9.1/all
+
+# Convenience name for "clean" pass in the directory.
+dependencies/freetype-2.9.1/clean: dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/clean
+
+.PHONY : dependencies/freetype-2.9.1/clean
+
+# Convenience name for "preinstall" pass in the directory.
+dependencies/freetype-2.9.1/preinstall:
+
+.PHONY : dependencies/freetype-2.9.1/preinstall
+
+#=============================================================================
+# Target rules for target dependencies/freetype-2.9.1/CMakeFiles/freetype.dir
+
+# All Build rule for target.
+dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/all:
+	$(MAKE) -f dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build.make dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/depend
+	$(MAKE) -f dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build.make dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77 "Built target freetype"
+.PHONY : dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/all
+
+# Include target in all.
+all: dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 41
+	$(MAKE) -f CMakeFiles/Makefile2 dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/CMakeFiles 0
+.PHONY : dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/rule
+
+# Convenience name for target.
+freetype: dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/rule
+
+.PHONY : freetype
+
+# clean rule for target.
+dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/clean:
+	$(MAKE) -f dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/build.make dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/clean
+.PHONY : dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/clean
+
+# clean rule for target.
+clean: dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/clean
 
 .PHONY : clean
 

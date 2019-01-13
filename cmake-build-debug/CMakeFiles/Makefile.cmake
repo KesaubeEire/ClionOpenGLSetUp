@@ -19,6 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../dependencies/GLFW/src/glfw3.pc.in"
   "../dependencies/GLFW/src/glfw3Config.cmake.in"
   "../dependencies/GLFW/src/glfw_config.h.in"
+  "../dependencies/freetype-2.9.1/CMakeLists.txt"
+  "../dependencies/freetype-2.9.1/builds/cmake/FindHarfBuzz.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCInformation.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
@@ -29,8 +31,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakePackageConfigHelpers.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakePushCheckState.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CPack.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CPackComponent.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckIncludeFile.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckLibraryExists.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckSymbolExists.cmake"
@@ -39,9 +44,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/Clang.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/GNU.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBZip2.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPNG.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageMessage.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPkgConfig.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindThreads.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindZLIB.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/GNUInstallDirs.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-Clang-C.cmake"
@@ -51,7 +61,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/UnixPaths.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/ProcessorCount.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/SelectLibraryConfigurations.cmake"
   "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/WriteBasicConfigVersionFile.cmake"
+  "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Templates/CPackConfig.cmake.in"
   )
 
 # The corresponding makefile is:
@@ -66,11 +78,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dependencies/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dependencies/GLFW/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dependencies/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dependencies/freetype-2.9.1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/L_1_4_LightCasters.dir/DependInfo.cmake"
+  "CMakeFiles/L_7_2_FontTrueType.dir/DependInfo.cmake"
   "CMakeFiles/L_1_3_LightingMaps.dir/DependInfo.cmake"
   "CMakeFiles/L_0_8.dir/DependInfo.cmake"
   "CMakeFiles/L_1_1.dir/DependInfo.cmake"
@@ -83,4 +97,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/L_0_9.dir/DependInfo.cmake"
   "dependencies/GLFW/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "dependencies/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "dependencies/freetype-2.9.1/CMakeFiles/freetype.dir/DependInfo.cmake"
   )

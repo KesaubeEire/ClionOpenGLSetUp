@@ -11,6 +11,7 @@ CMake Deprecation Warning at dependencies/GLFW/CMakeLists.txt:10 (cmake_policy):
 
 -- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
 -- Using Cocoa for window creation
+-- Could NOT find PNG (missing: PNG_LIBRARY) (found version "1.4.12")
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug

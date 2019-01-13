@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/cmake_install.cmake")
+  include("/Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/freetype-2.9.1/cmake_install.cmake")
 
 endif()
 
