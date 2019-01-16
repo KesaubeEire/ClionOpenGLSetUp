@@ -1,4 +1,4 @@
-"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/w/CLionProjects/OpenGL_awesome
+"/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/w/CLionProjects/OpenGL_awesome
 CMake Deprecation Warning at dependencies/GLFW/CMakeLists.txt:10 (cmake_policy):
   The OLD behavior for policy CMP0042 will be removed from a future version
   of CMake.

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug
 include dependencies/GLFW/CMakeFiles/uninstall.dir/progress.make
 
 dependencies/GLFW/CMakeFiles/uninstall:
-	cd /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW && "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/cmake_uninstall.cmake
+	cd /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW && "/Users/w/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P /Users/w/CLionProjects/OpenGL_awesome/cmake-build-debug/dependencies/GLFW/cmake_uninstall.cmake
 
 uninstall: dependencies/GLFW/CMakeFiles/uninstall
 uninstall: dependencies/GLFW/CMakeFiles/uninstall.dir/build.make
